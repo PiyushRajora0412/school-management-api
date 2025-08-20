@@ -1,0 +1,59 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure shell scripts use LF line endings
+*.sh text eol=lf
+
+# Ensure batch files use CRLF line endings
+*.bat text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+
+# SQL files should use LF
+*.sql text eol=lf
+
+# JSON files
+*.json text
+
+# Markdown files
+*.md text
+
+# JavaScript files
+*.js text
+*.ts text
+*.jsx text
+*.tsx text
+
+# Configuration files
+*.yml text
+*.yaml text
+*.toml text
+*.ini text
+*.cfg text
+*.conf text
+*.properties text
+
+# Docker files
+Dockerfile text
+.dockerignore text
+
+# Environment files
+.env* text
