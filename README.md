@@ -8,7 +8,7 @@ The fastest way to deploy the application is using Docker Compose:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone 
 cd school-management-api
 
 # Start with Docker Compose
