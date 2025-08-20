@@ -34,7 +34,7 @@ The API will be available at `http://localhost:3000`
 
 1. **Clone and Setup**
 ```bash
-git clone <your-repo-url>
+git clone 
 cd school-management-api
 npm install
 ```
